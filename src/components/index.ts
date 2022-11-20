@@ -3,5 +3,13 @@ import MuiTypography from "./MuiTypography";
 import MuiTextField from "./MuiTextField";
 import MuiSelect from "./MuiSelect";
 import MuiRadioButton from "./MuiRadioButton";
+import MuiCheckbox from "./MuiCheckbox";
 
-export { MuiButton, MuiTypography, MuiTextField, MuiSelect, MuiRadioButton };
+export {
+  MuiButton,
+  MuiTypography,
+  MuiTextField,
+  MuiSelect,
+  MuiRadioButton,
+  MuiCheckbox,
+};
