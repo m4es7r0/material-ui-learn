@@ -4,6 +4,7 @@ import MuiTextField from "./MuiTextField";
 import MuiSelect from "./MuiSelect";
 import MuiRadioButton from "./MuiRadioButton";
 import MuiCheckbox from "./MuiCheckbox";
+import MuiSwitch from "./MuiSwitch";
 
 export {
   MuiButton,
@@ -12,4 +13,5 @@ export {
   MuiSelect,
   MuiRadioButton,
   MuiCheckbox,
+  MuiSwitch,
 };
