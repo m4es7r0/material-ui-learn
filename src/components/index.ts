@@ -6,6 +6,7 @@ import MuiRadioButton from "./MuiRadioButton";
 import MuiCheckbox from "./MuiCheckbox";
 import MuiSwitch from "./MuiSwitch";
 import MuiRating from "./MuiRating";
+import MuiAutocomplete from "./MuiAutocomplete";
 
 export {
   MuiButton,
@@ -16,4 +17,5 @@ export {
   MuiCheckbox,
   MuiSwitch,
   MuiRating,
+  MuiAutocomplete,
 };
