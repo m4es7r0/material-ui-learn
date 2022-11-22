@@ -8,6 +8,7 @@ import MuiSwitch from "./MuiSwitch";
 import MuiRating from "./MuiRating";
 import MuiAutocomplete from "./MuiAutocomplete";
 import MuiLayout from "./MuiLayout";
+import MuiCard from "./MuiCard";
 
 export {
   MuiButton,
@@ -20,4 +21,5 @@ export {
   MuiRating,
   MuiAutocomplete,
   MuiLayout,
+  MuiCard,
 };
