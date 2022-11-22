@@ -10,6 +10,7 @@ import {
   MuiAutocomplete,
   MuiLayout,
   MuiCard,
+  MuiAccordion,
 } from "./components";
 
 import "./App.css";
@@ -27,7 +28,8 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }

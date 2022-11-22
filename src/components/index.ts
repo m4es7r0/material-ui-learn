@@ -9,6 +9,7 @@ import MuiRating from "./MuiRating";
 import MuiAutocomplete from "./MuiAutocomplete";
 import MuiLayout from "./MuiLayout";
 import MuiCard from "./MuiCard";
+import MuiAccordion from "./MuiAccordion";
 
 export {
   MuiButton,
@@ -22,4 +23,5 @@ export {
   MuiAutocomplete,
   MuiLayout,
   MuiCard,
+  MuiAccordion,
 };
