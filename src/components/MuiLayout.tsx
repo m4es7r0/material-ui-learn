@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { Stack, Box, Grid } from "@mui/material";
+import { Stack, Box, Grid, Paper } from "@mui/material";
 
 export default function MuiBox() {
   return (
-    <>
+    <Paper sx={{ padding: "1rem" }} elevation={2} variant="outlined">
       <Stack
         direction="row"
         spacing={2}
-        className="bg-[#ffffffde] text-[#242424] container w-full p-6 rounded place-items-center"
+        className="bg-[#ffffffde] text-[#242424] p-6 rounded justify-center"
       >
         <Box
           component="article"
@@ -32,7 +32,7 @@ export default function MuiBox() {
           borderRadius="1rem"
         ></Box>
       </Stack>
-      <Grid container rowSpacing={2} columnSpacing={2} border={"2px solid red"}>
+      <Grid container rowSpacing={2}>
         <Grid item xs={12} sm={6} md={4} lg={2}>
           <Box bgcolor="primary.light" p={2}>
             Item 1
@@ -64,6 +64,6 @@ export default function MuiBox() {
           </Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 }
