@@ -1,5 +1,6 @@
 import {
   Stack,
+  Box,
   AppBar,
   Toolbar,
   IconButton,
@@ -19,18 +20,20 @@ export default function MuiNavbar() {
   return (
     // <Stack className="bg-[#ffffffde] text-[#242424] p-6 rounded w-full">
     <AppBar position="fixed">
-      <Toolbar>
-        <IconButton
-          size="large"
-          edge="start"
-          color="inherit"
-          aria-label="Pokeboll Logo"
-        >
-          <CatchingPokemonIcon />
-        </IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: "1" }}>
-          Material UI
-        </Typography>
+      <Toolbar className="justify-between">
+        <Box className="flex place-items-center">
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="Pokeboll Logo"
+          >
+            <CatchingPokemonIcon />
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: "1" }}>
+            Material UI
+          </Typography>
+        </Box>
         <Stack direction="row" spacing={2}>
           <Button color="inherit">Features</Button>
           <Button color="inherit">Pricing</Button>
@@ -56,11 +59,11 @@ export default function MuiNavbar() {
           anchorEl={anchorEl}
           anchorOrigin={{
             vertical: "bottom",
-            horizontal: "right",
+            horizontal: "center",
           }}
           transformOrigin={{
             vertical: "top",
-            horizontal: "right",
+            horizontal: "center",
           }}
           onClose={() => setAnchorEl(null)}
           MenuListProps={{

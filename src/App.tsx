@@ -13,6 +13,7 @@ import {
   MuiAccordion,
   MuiImageList,
   MuiNavbar,
+  MuiLink,
 } from "./components";
 
 import "./App.css";
@@ -34,6 +35,7 @@ function App() {
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
       <MuiNavbar />
+      <MuiLink />
     </div>
   );
 }
