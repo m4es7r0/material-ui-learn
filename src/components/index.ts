@@ -11,6 +11,7 @@ import MuiLayout from "./MuiLayout";
 import MuiCard from "./MuiCard";
 import MuiAccordion from "./MuiAccordion";
 import MuiImageList from "./MuiImageList";
+import MuiNavbar from "./MuiNavbar";
 
 export {
   MuiButton,
@@ -26,4 +27,5 @@ export {
   MuiCard,
   MuiAccordion,
   MuiImageList,
+  MuiNavbar,
 };

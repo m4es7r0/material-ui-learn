@@ -12,6 +12,7 @@ import {
   MuiCard,
   MuiAccordion,
   MuiImageList,
+  MuiNavbar,
 } from "./components";
 
 import "./App.css";
@@ -31,7 +32,8 @@ function App() {
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiNavbar />
     </div>
   );
 }
