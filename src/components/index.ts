@@ -13,6 +13,7 @@ import MuiAccordion from "./MuiAccordion";
 import MuiImageList from "./MuiImageList";
 import MuiNavbar from "./MuiNavbar";
 import MuiLink from "./MuiLink";
+import MuiBreadcrumbs from "./MuiBreadcrumbs";
 
 export {
   MuiButton,
@@ -30,4 +31,5 @@ export {
   MuiImageList,
   MuiNavbar,
   MuiLink,
+  MuiBreadcrumbs,
 };

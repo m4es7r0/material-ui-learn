@@ -14,6 +14,7 @@ import {
   MuiImageList,
   MuiNavbar,
   MuiLink,
+  MuiBreadcrumbs,
 } from "./components";
 
 import "./App.css";
@@ -21,6 +22,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      {/* <MuiNavbar /> */}
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
@@ -34,8 +36,8 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
-      <MuiLink />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 }
