@@ -15,6 +15,7 @@ import MuiNavbar from "./MuiNavbar";
 import MuiLink from "./MuiLink";
 import MuiBreadcrumbs from "./MuiBreadcrumbs";
 import MuiDrawer from "./MuiDrawer";
+import MuiSpeedDial from "./MuiSpeedDial";
 
 export {
   MuiButton,
@@ -34,4 +35,5 @@ export {
   MuiLink,
   MuiBreadcrumbs,
   MuiDrawer,
+  MuiSpeedDial,
 };
