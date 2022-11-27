@@ -14,6 +14,7 @@ import MuiImageList from "./MuiImageList";
 import MuiNavbar from "./MuiNavbar";
 import MuiLink from "./MuiLink";
 import MuiBreadcrumbs from "./MuiBreadcrumbs";
+import MuiDrawer from "./MuiDrawer";
 
 export {
   MuiButton,
@@ -32,4 +33,5 @@ export {
   MuiNavbar,
   MuiLink,
   MuiBreadcrumbs,
+  MuiDrawer,
 };
